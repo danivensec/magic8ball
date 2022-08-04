@@ -5,6 +5,10 @@ h1{
     text-align: center;
     color: aliceblue;
 }
+h2{
+    text-align: center;
+    color: azure;
+}
 
 .container{
     width: 500px;
