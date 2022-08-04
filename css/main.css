@@ -4,10 +4,18 @@ body{
 h1{
     text-align: center;
     color: aliceblue;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Teko', sans-serif;
+    font-size: 100px;
 }
 h2{
     text-align: center;
     color: azure;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
 }
 
 .container{
@@ -24,6 +32,11 @@ button{
     position: relative;
     display: flex;
     padding: 2%;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 
 }
@@ -33,4 +46,12 @@ button{
     margin-right: auto;
     max-width: 800px;
     width: 80%;
+}
+button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#question{
+    padding:10px;
+    margin-bottom: 10px;
 }
